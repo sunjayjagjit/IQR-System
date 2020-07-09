@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{36B76B7A-BE1C-4D1D-96D4-304B1FC76B9D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>IQR_System.My.MyApplication</StartupObject>
+    <RootNamespace>IQR_System</RootNamespace>
+    <AssemblyName>IQR System</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>E:\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>IQR System.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>IQR System.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>F0E182321011279057D27C760EAE1D858981232F</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>IQR System_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="addsubquestion.Designer.vb">
+      <DependentUpon>addsubquestion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="addsubquestion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="front.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="front.Designer.vb">
+      <DependentUpon>front.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IQR_DataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>IQR_DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="IQR_DataSet.vb">
+      <DependentUpon>IQR_DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="login_lecturer.Designer.vb">
+      <DependentUpon>login_lecturer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="login_lecturer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login_student.Designer.vb">
+      <DependentUpon>login_student.vb</DependentUpon>
+    </Compile>
+    <Compile Include="login_student.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="main_lecturer.Designer.vb">
+      <DependentUpon>main_lecturer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="main_lecturer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="main_student.Designer.vb">
+      <DependentUpon>main_student.vb</DependentUpon>
+    </Compile>
+    <Compile Include="main_student.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="questiondel.Designer.vb">
+      <DependentUpon>questiondel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="questiondel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="questionlecadd.Designer.vb">
+      <DependentUpon>questionlecadd.vb</DependentUpon>
+    </Compile>
+    <Compile Include="questionlecadd.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="questionlecview.Designer.vb">
+      <DependentUpon>questionlecview.vb</DependentUpon>
+    </Compile>
+    <Compile Include="questionlecview.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="questionstart.Designer.vb">
+      <DependentUpon>questionstart.vb</DependentUpon>
+    </Compile>
+    <Compile Include="questionstart.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="register_lecturer.Designer.vb">
+      <DependentUpon>register_lecturer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="register_lecturer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="register_student.Designer.vb">
+      <DependentUpon>register_student.vb</DependentUpon>
+    </Compile>
+    <Compile Include="register_student.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="studmark.Designer.vb">
+      <DependentUpon>studmark.vb</DependentUpon>
+    </Compile>
+    <Compile Include="studmark.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="addsubquestion.resx">
+      <DependentUpon>addsubquestion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="front.resx">
+      <DependentUpon>front.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login_lecturer.resx">
+      <DependentUpon>login_lecturer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login_student.resx">
+      <DependentUpon>login_student.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="main_lecturer.resx">
+      <DependentUpon>main_lecturer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="main_student.resx">
+      <DependentUpon>main_student.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="questiondel.resx">
+      <DependentUpon>questiondel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="questionlecadd.resx">
+      <DependentUpon>questionlecadd.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="questionlecview.resx">
+      <DependentUpon>questionlecview.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="questionstart.resx">
+      <DependentUpon>questionstart.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="register_lecturer.resx">
+      <DependentUpon>register_lecturer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="register_student.resx">
+      <DependentUpon>register_student.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="studmark.resx">
+      <DependentUpon>studmark.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IQR System_TemporaryKey.pfx" />
+    <None Include="IQR_DataSet.xsc">
+      <DependentUpon>IQR_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="IQR_DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>IQR_DataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="IQR_DataSet.xss">
+      <DependentUpon>IQR_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

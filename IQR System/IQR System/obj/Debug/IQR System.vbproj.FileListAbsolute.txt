@@ -1,0 +1,28 @@
+F:\Barang Rais\IQR System\System\IQR System\IQR System\bin\Debug\IQR System.exe.config
+F:\Barang Rais\IQR System\System\IQR System\IQR System\bin\Debug\IQR System.exe
+F:\Barang Rais\IQR System\System\IQR System\IQR System\bin\Debug\IQR System.pdb
+F:\Barang Rais\IQR System\System\IQR System\IQR System\bin\Debug\IQR System.xml
+F:\Barang Rais\IQR System\System\IQR System\IQR System\obj\Debug\IQR System.vbprojAssemblyReference.cache
+F:\Barang Rais\IQR System\System\IQR System\IQR System\obj\Debug\IQR_System.front.resources
+F:\Barang Rais\IQR System\System\IQR System\IQR System\obj\Debug\IQR_System.login_student.resources
+F:\Barang Rais\IQR System\System\IQR System\IQR System\obj\Debug\IQR_System.Resources.resources
+F:\Barang Rais\IQR System\System\IQR System\IQR System\obj\Debug\IQR System.vbproj.GenerateResource.cache
+F:\Barang Rais\IQR System\System\IQR System\IQR System\obj\Debug\IQR System.vbproj.CoreCompileInputs.cache
+F:\Barang Rais\IQR System\System\IQR System\IQR System\obj\Debug\IQR System.exe
+F:\Barang Rais\IQR System\System\IQR System\IQR System\obj\Debug\IQR System.xml
+F:\Barang Rais\IQR System\System\IQR System\IQR System\obj\Debug\IQR System.pdb
+F:\Barang Rais\IQR System\System\IQR System\IQR System\obj\Debug\IQR_System.main_student.resources
+F:\Barang Rais\IQR System\System\IQR System\IQR System\obj\Debug\IQR_System.login_lecturer.resources
+F:\Barang Rais\IQR System\System\IQR System\IQR System\obj\Debug\IQR_System.main_lecturer.resources
+F:\Barang Rais\IQR System\System\IQR System\IQR System\obj\Debug\IQR_System.register_student.resources
+F:\Barang Rais\IQR System\System\IQR System\IQR System\obj\Debug\IQR_System.questionlecview.resources
+F:\Barang Rais\IQR System\System\IQR System\IQR System\obj\Debug\IQR_System.questionlecadd.resources
+F:\Barang Rais\IQR System\System\IQR System\IQR System\obj\Debug\IQR_System.addsubquestion.resources
+F:\Barang Rais\IQR System\System\IQR System\IQR System\obj\Debug\IQR_System.questiondel.resources
+F:\Barang Rais\IQR System\System\IQR System\IQR System\obj\Debug\IQR_System.questionstart.resources
+F:\Barang Rais\IQR System\System\IQR System\IQR System\obj\Debug\IQR_System.studmark.resources
+F:\Barang Rais\IQR System\System\IQR System\IQR System\bin\Debug\IQR System.exe.manifest
+F:\Barang Rais\IQR System\System\IQR System\IQR System\bin\Debug\IQR System.application
+F:\Barang Rais\IQR System\System\IQR System\IQR System\obj\Debug\IQR System.exe.manifest
+F:\Barang Rais\IQR System\System\IQR System\IQR System\obj\Debug\IQR System.application
+F:\Barang Rais\IQR System\System\IQR System\IQR System\obj\Debug\IQR_System.register_lecturer.resources
